@@ -11,6 +11,13 @@ public class Person {
 		this.personAge = personAge;
 		this.personScore = personScore;
 	}
+	
+	public Person(String personName, int personAge) {
+		super();
+		this.personName = personName;
+		this.personAge = personAge;
+	}
+
 	public Person() {
 		super();
 		// TODO Auto-generated constructor stub
